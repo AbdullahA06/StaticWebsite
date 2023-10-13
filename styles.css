@@ -1,0 +1,125 @@
+body{
+    background:#D4ECDD;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h3{
+    margin-right:80px;
+    margin-left:80px;
+    margin-bottom:40px;
+    margin-top:40px;
+    color:goldenrod;
+}
+
+table{
+  text-align: left;
+  color:#112031;
+}
+
+label{
+  color:#112031;
+}
+
+input{
+  color:#112031;
+}
+
+i{
+  color:#112031;
+}
+footer{
+  font-size: 18px;
+  color:#112031;
+ text-align: center;
+}
+
+#video{
+  font-size: 18px;
+  color:#112031;
+  margin-right:80px;
+  margin-left:80px;
+  margin-top:40px;
+}
+
+img.Image { 
+max-width:480px ;
+max-height: 270px;}
+
+.head{
+  font-size: 24px;
+  color:#112031; 
+}
+p{
+    font-size: 18px;
+    color:#112031;
+    margin-right:80px;
+    margin-left:80px;
+    margin-bottom:40px;
+    margin-top:40px;
+}
+
+ul{
+  font-size: 18px;
+  color:#112031;
+  margin-right:80px;
+  margin-left:80px;
+  margin-bottom:40px;
+  margin-top:40px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #D4ECDD;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: #D4ECDD;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    background-color: #D4ECDD;
+  }
+  
+  .header a.logo {
+    font-size: 30px;
+    color:#112031;
+    background-color: #D4ECDD;
+   
+  }
+  
+  .header a:hover {
+    background-color: #345B63;
+    color: #112031;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: #112031;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+    * {
+    box-sizing: border-box;
+    }
+  
+}
